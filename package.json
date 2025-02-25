@@ -1,0 +1,22 @@
+{
+  "name": "react-native-snowcoach",
+  "version": "1.0.0",
+  "description": "A simple React Native coachmark for user onboarding",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sinovuyo97/react-native-snowcoach.git"
+  },
+  "keywords": ["react-native", "onboarding", "coachmark", "tutorial", "snow"],
+  "author": "Sinovuyo",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-native": ">=0.60.0"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  }
+}
